@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">  
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__logo">
+            <a href=""><img src="./img/LoGo - Wowy.png" alt=""></a>
+        </div>
+        <div class="nav" id="menu">
+            <ul>
+                <li><a href="">Home</a>
+                    <div class="sub-menu"> 
+                        <ul>
+                            <li><a href="">Home - 1</a></li>
+                            <li><a href="">Home - 2</a></li>
+                            <li><a href="">Home - 3</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">About</a></li>
+                <li><a href="">Shop</a>
+                    <div class="sub-menu"> 
+                        <ul>
+                            <li><a href="">Shop - Wide</a></li>
+                            <li><a href="">Single Product</a></li>
+                            <li><a href="">Shop - Filter</a></li>
+                            <li><a href="">Shop - Cart</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Blog</a>
+                    <div class="sub-menu"> 
+                        <ul>
+                            <li><a href="">Category Grid</a></li>
+                            <li><a href="">Category List</a></li>
+                            <li><a href="">Category Wide</a></li>
+                            <li><a href="">Category Big</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Pages</a>
+                    <div class="sub-menu"> 
+                        <ul>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">My Account</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header__action">
+            <ion-icon class="icon" name="heart-outline"></ion-icon>
+            <ion-icon class="icon" name="cart-outline"></ion-icon>
+            <ion-icon class="icon" name="person-outline"></ion-icon>
+        </div>
+        <div class="menu-toggle" id="toggle">
+            <ion-icon name="menu-outline"></ion-icon>
+        </div>
+    </div>
+    <div class="container-fluid carousel slide" id="slider" data-bs-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-bs-target="#slider" class="active" data-bs-slide-to="0"></li>
+			<li data-bs-target="#slider" data-bs-slide-to="1"></li>
+			<li data-bs-target="#slider" data-bs-slide-to="2"></li>
+		</ol>
+		<div class="container-fluid carousel-inner">
+			<div class="carousel-item active">
+                <div class="slider-img">
+				    <img src="./img/slider-1.png">
+                 </div>
+				<div class="carousel-caption">
+					<h1>Trade-in Offer</h1>
+                    <h2>Supper Value Deals</h2>
+                    <h3>On All Products</h3>
+					<p>Save more with coupons & up to 70% off</p>
+                    <button class="btn-header">SHOP NOW</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="slider-img">
+				    <img src="./img/slider-2.png">
+                 </div>
+				<div class="carousel-caption">
+					<h1>Tech Promotions</h1>
+                    <h2>Tech Trending</h2>
+                    <h3>Great Collection</h3>
+					<p>Save more with coupons & up to 20% off</p>
+                    <button class="btn-header">SHOP NOW</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="slider-img">
+				    <img src="./img/slider-3.png">
+                 </div>
+				<div class="carousel-caption">
+					<h1>Upcoming Offer</h1>
+                    <h2>Big Deal Form</h2>
+                    <h3>Manufacturer</h3>
+					<p>Headphone, Gaming Laptop, PC and more...</p>
+                    <button class="btn-header">SHOP NOW</button>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-next" href="#slider" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+		<a class="carousel-control-prev" href="#slider" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>	
+	</div>
+
+    <div class="container service">
+        <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 service__item">
+                <div class="row">
+                <div class="col-3 service__icon">
+                    <i class="fa fa-truck"></i>
+                </div>
+                <div class="col-9 service__content">
+                    <h2>Free Shipping</h2>
+                    <p>Orders $50 or more</p>
+                </div>
+                 </div>  
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 service__item">
+                <div class="row">
+                <div class="col-3 service__icon">
+                    <i class="fa fa-envelope-open"></i>
+                </div>
+                <div class="col-9 service__content">
+                    <h2>Free Returns</h2>
+                    <p>Within 30 days</p>
+                </div>
+                 </div>  
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 service__item">
+                <div class="row">
+                <div class="col-3 service__icon">
+                    <i class="fa fa-shopping-bag"></i>
+                </div>
+                <div class="col-9 service__content">
+                    <h2>Get 20% Off 1 Item</h2>
+                    <p>When you sign up</p>
+                </div>
+                 </div>  
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 service__item">
+                <div class="row">
+                <div class="col-3 service__icon">
+                    <i class="fa fa-life-ring"></i>
+                </div>
+                <div class="col-9 service__content">
+                    <h2>Support Center</h2>
+                    <p>24/7 amazing services</p>
+                </div>
+                 </div>  
+            </div>
+        </div>
+    </div>
+
+   <div class="main popular">
+        <div class=" popular__item container">
+             <h1 class="title"><span>Popular</span> Categories</h1>
+         </div>
+       <div class="owl-carousel owl-theme container" id="my_carousel">
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-1.jpg" alt="">
+                <h1>MEN'S FASHION</h1>
+            </div>
+        </div>
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-2.jpg" alt="">
+                <h1>WOMEN'S FASHION</h1>
+            </div>
+        </div>
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-3.jpg" alt="">
+                <h1>WATCHES</h1>
+            </div>
+        </div>
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-4.jpg" alt="">
+                <h1>BAG & SHOES</h1>
+            </div>
+        </div>
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-5.jpg" alt="">
+                <h1>PHONE</h1>
+            </div>
+        </div>
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-6.jpg" alt="">
+                <h1>COMPUTER</h1>
+            </div>
+        </div>
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-7.jpg" alt="">
+                <h1>LAPTOP</h1>
+            </div>
+        </div>
+        <div class="popular__content">
+            <div class="slider__popular">
+                <img src="./img/category-thumb-8.jpg" alt="">
+                <h1>FURNITURE</h1>
+            </div>
+        </div>
+       </div>
+   </div>
+   
+   <div class="container">
+       <div class="row banner">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 banner_item1 ">
+                <div class="banner__content">
+                     <p>Smart Offer</p>
+                     <h2>Save 20% on <br>iPhone 12</h2>
+                     <h3>Shop Now</h3>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 banner_item2">
+                <div class="banner__content">
+                    <p>Sale off</p>
+                    <h2>Great Camera <br>Collection</h2>
+                    <h3>Shop Now</h3>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 banner_item3">
+                <div class="banner__content">
+                    <p>New Arrivals</p>
+                    <h2>Shop Today’s <br>Deals & Offers</h2>
+                    <h3>Shop Now</h3>
+                </div>
+            </div>
+       </div>
+   </div>
+
+   <div class="container">
+       <div class="row">
+           <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+                <div class="row">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-xs-12 featured__img">
+						<img src="img/product-1.jpg" class="w-100" alt="">
+					</div>
+                    <div class="featured__content">
+                        <h2>MUSIC</h2>
+                        <h3>Headphone Ultra Bass</h3>
+                        <div class="featured__line"></div>
+                        <div class="featured__icon">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-o"></i>
+						</div>
+                        <h4>90%</h4>
+                        <p class="featured__content-price">$238.85 <span>$245.8</span></p>
+                    </div>
+                </div>
+           </div>
+           <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-12 featured__img">
+                    <img src="img/product-2.jpg" class="w-100" alt="">
+                </div>
+                <div class="featured__content">
+                    <h2>MUSIC</h2>
+                    <h3>Smart Home Speaker</h3>
+                    <div class="featured__line"></div>
+                    <div class="featured__icon">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <h4>90%</h4>
+                    <p class="featured__content-price">$138.85  <span>$255.8</span></p>
+                </div>
+            </div>
+       </div>
+       <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+        <div class="row">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-12 featured__img">
+                <img src="img/product-11-2.jpg" class="w-100" alt="">
+            </div>
+            <div class="featured__content">
+                <h2>WATCH</h2>
+                <h3>Apple Watch Serial 7</h3>
+                <div class="featured__line"></div>
+                <div class="featured__icon">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <h4>95%</h4>
+                <p class="featured__content-price">$238.85 <span>$245.8</span></p>
+            </div>
+        </div>
+   </div>
+   <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+    <div class="row">
+        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-12 featured__img">
+            <img src="img/product-4.jpg" class="w-100" alt="">
+        </div>
+        <div class="featured__content">
+            <h2>MUSIC</h2>
+            <h3>Bluetooth Headphone</h3>
+            <div class="featured__line"></div>
+            <div class="featured__icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <h4>90%</h4>
+            <p class="featured__content-price">$238.85 <span>$245.8</span></p>
+        </div>
+    </div>
+</div>
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+    <div class="row">
+        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-12 featured__img">
+            <img src="img/product-5.jpg" class="w-100" alt="">
+        </div>
+        <div class="featured__content">
+            <h2>SPEAKER</h2>
+            <h3>Chikie - Bluetooth Speaker</h3>
+            <div class="featured__line"></div>
+            <div class="featured__icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <h4>70%</h4>
+            <p class="featured__content-price">$28.85 <span>$45.8</span></p>
+        </div>
+    </div>
+</div>
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+    <div class="row">
+        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-12 featured__img">
+            <img src="img/product-5-2.jpg" class="w-100" alt="">
+        </div>
+        <div class="featured__content">
+            <h2>CAMERA</h2>
+            <h3>Camera Hikvision 35VS8</h3>
+            <div class="featured__line"></div>
+            <div class="featured__icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <h4>70%</h4>
+            <p class="featured__content-price">$238.85 <span>$245.8</span></p>
+        </div>
+    </div>
+</div>
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+    <div class="row">
+        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-12 featured__img">
+            <img src="img/product-7-2.jpg" class="w-100" alt="">
+        </div>
+        <div class="featured__content">
+            <h2>PHONE</h2>
+            <h3>Apple iPhone 13 Plus</h3>
+            <div class="featured__line"></div>
+            <div class="featured__icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <h4>98%</h4>
+            <p class="featured__content-price">$238.85 <span>$245.8</span></p>
+        </div>
+    </div>
+</div>
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-xs-12 featured">
+    <div class="row">
+        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-sm-4 col-12 featured__img">
+            <img src="img/product-8.jpg" class="w-100" alt="">
+        </div>
+        <div class="featured__content">
+            <h2>ACCESSORIES</h2>
+            <h3>Leather Watch Band</h3>
+            <div class="featured__line"></div>
+            <div class="featured__icon">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+             </div>
+             <h4>70%</h4>
+            <p class="featured__content-price">$238.85 <span>$245.8</span></p>
+        </div>
+     </div>
+    </div>
+       </div>
+   </div>
+
+   <div class="container services">
+       <div class="row">
+           <div class="col-12 repair__services">
+              <div class="repair__content">
+                    <p>Repair Services</p>
+                    <h3>We're an Apple</h3>
+                    <h4>Authorised Service Provider</h4>
+                    <button>LEARN MORE</button>
+              </div>
+           </div>
+       </div>
+   </div>
+
+   <div class="container">
+       <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-md-6 col-12 deal">
+                    <div class="deal__content">
+                        <h2>Deal of the Day.</h2>
+                       <h3>Limited quantities.</h3>
+                     <h4>Smart Headphone New <br> Morden Design</h4>
+                     <h5 class="deal__price">$139.00 <span> $160.99</span></h5>
+                     <p>Hurry Up! Offer End In:</p>
+                <div id="timer">
+                    <ul>
+                          <li><div id="days"></div></li>
+                          <li><div id="hours"></div></li>
+                          <li><div id="minutes"></div></li>
+                          <li><div id="seconds"></div></li>
+                    </ul>
+                </div>
+                     <button>SHOP NOW</button>
+                    </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 deal-2">
+                <div class="deal__content">
+                    <h2>Gadgets & Accessories</h2>
+                    <h3>Computers & Laptop</h3>
+                 <h4>Apple In-Ear Headphones <br> with Remote and Mic</h4>
+                 <h5 class="deal__price">$178.00 <span> $256.99</span></h5>
+                 <p>Hurry Up! Offer End In:</p>
+            <div id="timer2">
+                <ul>
+                      <li><div id="day"></div></li>
+                      <li><div id="hour"></div></li>
+                      <li><div id="minute"></div></li>
+                      <li><div id="second"></div></li>
+                </ul>
+            </div>
+                 <button>SHOP NOW</button>
+                </div>
+        </div>
+       </div>
+   </div>
+
+   <div class="main brand">
+        <div class="brand__item">
+            <h1 class="title"><span>Featured </span>  Brands</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 brand__content">
+                    <div class="brand__slider">
+                        <img src="./img/brand-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 brand__content">
+                    <div class="brand__slider">
+                        <img src="./img/brand-2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 brand__content">
+                    <div class="brand__slider">
+                        <img src="./img/brand-3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 brand__content">
+                    <div class="brand__slider">
+                        <img src="./img/brand-4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 brand__content">
+                    <div class="brand__slider">
+                        <img src="./img/brand-5.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6 brand__content">
+                    <div class="brand__slider">
+                        <img src="./img/brand-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+    <div class="container new-trending">
+        <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-6 new">
+                <div class="row">
+                    <div class="col-12 new__title">
+                        <h1>News & Trending</h1>
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-xxl-12 col-xl-12 col-lg-12  new__content">
+                        <div class="row">
+                           <div class="new-1 row">
+                                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 row">
+                                    <img src="./img/blog-2.jpg" alt="">
+                                </div>
+                                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 new__content--tech">
+                                    <h2>TECH</h2>
+                                    <h3>Qualcomm is developing a Nintendo Switch-like console, report says</h3>
+                                    <p>14 April 2021</p>
+                                </div>
+                           </div>
+                            <div class="new-2 row">
+                                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 row">
+                                    <img src="./img/blog-1.jpg" alt="">
+                                </div>
+                                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 new__content--telecom">
+                                    <h2>TELECOM</h2>
+                                    <h3>Not even the coronavirus can derail 5G's global momentum</h3>
+                                    <p>14 April 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-6 trending row">
+                <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-6 col-sm-5 trending-1">
+                   <div class="trending-1-text">
+                    <h1>Gaming Area</h1>
+                    <h2>Save 17% on <br> Assus Laptop</h2>
+                    <p>Shop Now</p>
+                   </div>
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-6 col-sm-7 row trending-2">
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 trending__item-1">
+                        <div class="trending__item-text1">
+                            <h1>Smart Offer</h1>
+                            <h2>Save 20% on <br> iPhone 12</h2>
+                            <p>Shop Now</p>
+                        </div>
+                    </div>
+                    <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 trending__item-2">
+                        <div class="trending__item-text2">
+                            <h1>Smart Offer</h1>
+                            <h2>Save 20% on <br> iPhone 12</h2>
+                            <p>Shop Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container banner__today">
+        <div class="row">
+            <div class="col-12 banner__today--item">
+               <div class="banner__today--content">
+                     <h3>Shop Today’s Deals</h3>
+                     <h4>Specialized storage for tourism</h4>
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container selling">
+        <div class="row">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 selling__banner">
+                <div class="selling__banner--content">
+                    <h1>Music Zone</h1>
+                    <h2>Save 17% on <br> Headphone</h2>
+                    <p>Shop Now</p>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 selling__deal">
+                <div class="row">
+                    <div class="selling__deal--title">
+                        <h2>Deals & Outlet</h2>
+                        <div class="line-2"></div>
+                        <div class="line"></div>
+                    </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-1.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-2.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-3.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 selling__deal">
+                <div class="row">
+                    <div class="selling__deal--title">
+                        <h2>Top Selling</h2>
+                        <div class="line-2"></div>
+                        <div class="line"></div>
+                    </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-4.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-5.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-6.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 selling__deal">
+                <div class="row">
+                    <div class="selling__deal--title">
+                        <h2>Hot Releases</h2>
+                        <div class="line-2"></div>
+                        <div class="line"></div>
+                    </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-7.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-8.jpg" alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="selling__deal--content row">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-12 row deal__content--img">
+                                <img src="./img/thumbnail-1.jpg " alt="">
+                            </div>
+                            <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-12 row deal__content--text">
+                                <div class="deal__text">
+                                    <h2>The World Caters to Average Editor's picked</h2>
+                                    <p>$238.85 <span>$245.8</span></p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-subscribe">
+		<div class="container subscribe-content">
+		<div class="row">
+			<div class="col-xxl-1 col-xl-1 col-lg-1 col-sm-12 col-md-2 col-2 col icon-plane">
+					<i class="fa fa-paper-plane"></i>
+			</div>
+			<div class="col-xxl-5 col-xl-5 col-lg-5 col-sm-12 col-md-10 col-10 col subscribe-text">
+				<p>Subscribe to our newsletter to receive news, updates, and another stuff by email:</p>
+			</div>
+			<div class="col-xxl-6 col-xl-6 col-lg-6 col-sm-12 col-md-12 col-12 subscribe-form">
+				<div class="row">
+					<div class="col-xxl-9 col-xl-9 col-lg-9 col-sm-12 col-md-12 col-12 col subscribe-email">
+						<input type="text" placeholder="Enter your email">
+					</div>	
+						<div class="col-xxl-3 col-xl-3 col-lg-3 col-sm-12 col-md-12 col-12 col subscribe-button">
+							<button>SUBSCRIBE</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+    
+    <div class="container footer">
+        <div class="row">
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-sm-12 col-md-12 col-12 footer__contact">
+                <div class="footer__logo">
+                    <img src="./img/LoGo - Wowy.png" alt="">
+                </div>
+                <div class="footer__contact--item">
+                    <h1>Contact</h1>
+                    <h2><span>Address:</span> 562 Wellington Road, Street 32, San Francisco</h2>
+                    <h3><span>Phone:</span> +01 2222 365 /(+91) 01 2345 6789</h3>
+                    <h4><span>Hours:</span> 10:00 - 18:00, Mon - Sat</h4>
+                    <p>Follow Us</p>
+                    <div class="footer__contact--icon">
+                        <ul>
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-sm-12 col-md-12 col-12 footer__about">
+                <h1>About</h1>
+				<ul>
+					<li><a href=""></a>About Us</li>
+					<li><a href=""></a>Delivery Information</li>
+					<li><a href=""></a>Privacy Policy</li>
+					<li><a href=""></a>Terms & Conditions</li>
+					<li><a href=""></a>Contact Us</li>
+				</ul>
+            </div>
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-sm-12 col-md-12 col-12 footer__account">
+                <h1>My Account</h1>
+				<ul>
+					<li><a href=""></a>Sign In</li>
+					<li><a href=""></a>View Cart</li>
+					<li><a href=""></a>My Wishlist</li>
+					<li><a href=""></a>Track My Order</li>
+					<li><a href=""></a>Help</li>
+					<li><a href=""></a>Order</li>
+				</ul>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-lg-4 col-sm-12 col-md-12 col-12 footer__download">
+               <div class="footer__download--content">
+                    <h1>Download Our App</h1>
+                    <p>From App Store or Google Play</p>
+               </div>
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-12 footer__download--img">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 footer__img--1">
+                            <img src="./img/app-store.jpg" alt="">
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 footer__img--2">
+                            <img src="./img/google-play.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                    <div class="footer__download--payment">
+                        <h1>Secured Payment Gateways</h1>
+                        <img src="./img/payment-method.png" alt="">
+                    </div>
+            </div>
+        </div>
+    </div>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $("#toggle").click(function() {
+         $(this).toggleClass("on");
+         $("#menu").slideToggle();
+        });
+    </script>
+    <script>
+       $('.owl-carousel').owlCarousel({
+    items:6,
+    lazyLoad:true,
+    loop:true,
+    nav:true,
+    dots:false,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    responsive:{
+        0:{
+            items:2
+        },
+        600:{
+            items:3
+        },
+        900:{
+            items:3
+        },
+        1000:{
+            items:5
+        },
+        1366:{
+            items:6
+        }
+    }
+});
+    </script>
+
+    <script>
+        function makeTimer() {
+    
+        //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
+            var endTime = new Date("30 Nov 2021 17:18:00 GMT+01:00");			
+                endTime = (Date.parse(endTime) / 1000);
+    
+                var now = new Date();
+                now = (Date.parse(now) / 1000);
+    
+                var timeLeft = endTime - now;
+    
+                var days = Math.floor(timeLeft / 86400); 
+                var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+                var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+                var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+      
+                if (hours < "10") { hours = "0" + hours; }
+                if (minutes < "10") { minutes = "0" + minutes; }
+                if (seconds < "10") { seconds = "0" + seconds; }
+    
+                $("#days").html(days + "<span>Days</span>");
+                $("#hours").html(hours + "<span>Hours</span>");
+                $("#minutes").html(minutes + "<span>Mins</span>");
+                $("#seconds").html(seconds + "<span>Sec</span>");		
+        }
+        setInterval(function() { makeTimer(); }, 1000);
+    </script>
+     <script>
+        function makeTimer2() {
+    
+        //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
+            var endTime = new Date("30 Dec 2021 17:18:00 GMT+01:00");			
+                endTime = (Date.parse(endTime) / 1000);
+    
+                var now = new Date();
+                now = (Date.parse(now) / 1000);
+    
+                var timeLeft = endTime - now;
+    
+                var days = Math.floor(timeLeft / 86400); 
+                var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+                var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+                var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+      
+                if (hours < "10") { hours = "0" + hours; }
+                if (minutes < "10") { minutes = "0" + minutes; }
+                if (seconds < "10") { seconds = "0" + seconds; }
+    
+                $("#day").html(days + "<span>Days</span>");
+                $("#hour").html(hours + "<span>Hours</span>");
+                $("#minute").html(minutes + "<span>Mins</span>");
+                $("#second").html(seconds + "<span>Sec</span>");		
+        }
+        setInterval(function() { makeTimer2(); }, 1000);
+    </script>
+</body>
+
+</html>
