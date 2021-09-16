@@ -1535,4 +1535,8 @@
   .footer__img--2 {
     width: 55%;
   }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
 }
