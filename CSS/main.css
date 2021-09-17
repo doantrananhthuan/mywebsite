@@ -1554,4 +1554,10 @@ body {
   h4 {
     font-size: 14px;
   }
+  .footer__download--content p {
+  font-size: 14px;
+  }
+  .footer__download--payment h1 {
+  font-size: 16px;
+  }
 }
