@@ -10,10 +10,6 @@
   font-family: Poppins-L;
   src: url("../fonts/Poppins-Light.ttf");
 }
-html, body {
-  overflow-x:hidden;
-} 
-
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -1560,4 +1556,5 @@ html, body {
   .footer__download--payment h1 {
   font-size: 14px;
   }
+  html, body {overflow-x: hidden;}
 }
