@@ -10,9 +10,9 @@
   font-family: Poppins-L;
   src: url("../fonts/Poppins-Light.ttf");
 }
-body {
+html, body {
   overflow-x:hidden;
-}
+} 
 
 .header {
   display: flex;
