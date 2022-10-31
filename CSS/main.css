@@ -1038,9 +1038,6 @@
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1400px) {
-  .service {
-  margin-left: 320px;
-}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) /*ipad pro*/ {
   .nav ul li {
@@ -1102,7 +1099,7 @@
     height: 40px;
   }
   .service {
-    margin-left: 45px;
+    margin-left: 122px;
   }
   .service__content {
     padding-left: 30px;
